@@ -1,0 +1,283 @@
+* {
+    font-family: sans-serif;
+
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+.nav {
+    height: 50px;
+    background-color:  #171515;
+    display: flex;
+    max-width:100% ;
+
+}
+
+#logo {
+    margin-left: 100px;
+    display: flex;
+
+}
+
+.nav img  {
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 50px;
+    display: flex;
+
+}
+
+.nav ul {
+    display: flex;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.nav li {
+    text-align: center;
+    background-position: 500px;
+    display: flex;
+}
+
+.nav .space:hover {
+    background-color: rgba(188, 100, 232, 0.785);
+    border: 1px solid transparent;
+    scale: 2;
+    border-radius: 8px;
+    padding: 0px 10px 10px 10px ;
+
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.space {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+
+}
+
+.thumb {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.thumb img {
+    display: flex;
+    width: 100%;
+}
+
+.text-buy {
+    font-family: sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    top: 0%;
+    margin-top: 30px;
+    background-color: black;
+}
+    
+    
+
+.text-buy a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(188, 100, 232, 0.785);
+    color: #000000;
+    text-align: center;
+    height: 20px;
+    padding: 15px;
+    border-radius: 41px;
+
+}
+
+.text-value {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.specification {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+}
+
+.specification-text {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.specification img {
+    width: 500px;
+    display: flex;
+}
+
+.specification h3 {
+    display: flex;
+    padding-top: 25px;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 33px;
+}
+
+.specification h5 {
+    width: 629px;
+    display: flex;
+    padding-top: 7px;
+    font-size: 16px;
+    color: rgb(129, 125, 125);
+
+}
+
+.specification-intern {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.specification-intern video {
+    display: flex;
+    height: 500px;
+}
+
+.specification-intern h4 {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 80px;
+    text-align: center;
+}
+
+.container-fluid {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container-fluid h4 {
+    padding: 30px;
+    font-size: 45px;
+
+}
+
+.container-product {
+    display:flex ;
+    padding-bottom: 40px;
+}
+
+.container-product img {
+    display: flex;
+}
+
+.iphonenormal {
+    height: 380px;
+    width: auto;
+    margin-left: 40px;
+}
+
+
+
+.text-product
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-product h6 {
+    font-size: 30px;
+    margin: 0%;
+}    
+   
+
+
+.text-novo  {
+    display: flex;
+    margin-bottom: 35px;
+    color: darkgoldenrod;
+
+
+}
+
+.text-product p {
+    display: flex;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.iphone-buy a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(188, 100, 232, 0.785);
+    color: #000000;
+    text-align: center;
+    height: 20px;
+    padding: 15px;
+    border-radius: 41px;
+
+}
+
+.footer {
+    color: white;
+    display: flex;
+    background-color: aliceblue;
+    margin: 40px;
+}
+
+.Copiright {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+    .nav {
+    }
+    .thumb img {
+        display: flex ;
+}
+    .specification img {
+        width: 400px;
+    }
+    .specification h3 {
+        font-size: 24px;
+    }
+    .specification h5 {
+        font-size: 18px;
+
+    }
+
+}
